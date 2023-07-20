@@ -1,0 +1,32 @@
+{
+  "name": "yaml-parser",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "./node_modules/.bin/tsc --watch",
+    "build": "./node_modules/.bin/tsc",
+    "test": "pnpm build && node --trace-uncaught dist/index.js"
+  },
+  "dependencies": {
+    "@poppinss/cliui": "^3.0.5",
+    "@poppinss/prompts": "^2.0.2",
+    "@poppinss/utils": "^5.0.0",
+    "fs-extra": "^11.1.1",
+    "getopts": "^2.3.0",
+    "shelljs": "^0.8.5",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.4.2",
+    "@types/shelljs": "^0.8.12",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-unicorn": "^48.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": false,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "rootDir": "./src",
+        "outDir": "./dist"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
